@@ -1,7 +1,7 @@
 -ifndef(DETERGENT).
 -define(DETERGENT, true).
 
--define(DEFAULT_PREFIX, "p").
+-define(DEFAULT_PREFIX, "P").
 
 -record(call_opts, {url, prefix=?DEFAULT_PREFIX,
                     http_headers=[],
